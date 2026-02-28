@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-sudo apt update && sudo apt install nodejs npm
+apt update && sudo apt install nodejs npm
 # Install pm2 - production process manager for Node.js
-sudo npm install -g pm2
+npm install -g pm2
 # stop any instance of our application running currently
 pm2 stop ExampleApp
 # change directory into folder where app is located
